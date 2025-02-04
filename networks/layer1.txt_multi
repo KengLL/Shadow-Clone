@@ -1,0 +1,67 @@
+rumor_network 0
+0 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGiY6BjoGmkpWhnoGOkoYZCs8CwautrQUAO9MPqg=="}
+1 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGqY6BjoGmkpWhnoGOkoYZgldbWwsAfisNMQ=="}
+2 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGIKq2FgBx+Qhu"}
+3 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGiY6BjoGmkpWhnoGOkoYpCs8MhWeOwrNE8GprawEexRSb"}
+4 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGgQ4QaipZGeoZ6ChpGKPwzBG82tpaADrJD6I="}
+5 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGoY6BjoGmkpWhnoGOkoYxCs8SwautrQUAOw8PpQ=="}
+6 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGgQ4QaipZGeoZ6ChpGKLwjFF45ig8SwSvtrYWABxPFJA="}
+7 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGsY6BjoGmkpWhnoGOkoYJCs8MhWeJ4NXW1gIAG40SIA=="}
+8 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGgQ4QaipZGeoZ6ChpWCJ4tbW1AH3JDS8="}
+9 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABK1OkqGILaGsY6BjoGmkpWhnoGOkoYpCs8MhWeOwrNA8GprawEecRSZ"}
+10 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahoY6BjoGmkpWhnoGOkCuESrXGJVrgso1ReWaoXLNUbkWqFxLBLdWR8kQ6Jja2loAS4EgKg=="}
+11 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqhco1RuSaoXFNUrhkq1xyVa4HKtURwa3WUDIGOqa2tBQBK9CAp"}
+12 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1RuSaoXFNUrhkq1xyVa4HKtURwa3WUDIGOqa2tBQBKdiAo"}
+13 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QuSaoXFNUrhkq1xyVa4HKtURwa3WUDIGOqa2tBQBKByAn"}
+14 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXFNUrhkq1xyVa4HKtURwa3WUDIGOqa2tBQBJpyAm"}
+15 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXBNUrhkq1xyVa4HKtURwa3WUDIGOqa2tBQBJViAl"}
+16 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXBNUrikq1xyVa4HKtURwa3WUDIGOqa2tBQBJFCAk"}
+17 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXBNUrikq1wyVa4HKtURwa3WUDIGOqa2tBQBI4SAj"}
+18 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXBNUrikq1wyVa47KtURwa3WUDIGOqa2tBQBIvSAi"}
+19 0 0 {"data":"eJyrVirOSEzJL1eyqlYyABEahgY6QKipZGWoZ6AD5Bqico1QucaoXBNUrikq1wyVa47KtUBwa3WUDIGOqa2tBQBIqCAh"}
+EDGES
+10 11
+10 12
+10 13
+10 14
+10 15
+10 16
+10 17
+10 18
+10 19
+11 12
+11 13
+11 14
+11 15
+11 16
+11 17
+11 18
+11 19
+12 13
+12 14
+12 15
+12 16
+12 17
+12 18
+12 19
+13 14
+13 15
+13 16
+13 17
+13 18
+13 19
+14 15
+14 16
+14 17
+14 18
+14 19
+15 16
+15 17
+15 18
+15 19
+16 17
+16 18
+16 19
+17 18
+17 19
+18 19
