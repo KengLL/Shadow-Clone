@@ -5,6 +5,35 @@ import base64
 from collections import defaultdict
 import shutil
 
+# PROCESS
+# PARSE TO DICT -> COMPRESS TO STRING -> WRITE TO FILE  
+
+# LOGIC CHECK
+# READ FROM FILE -> DECOMPRESS TO DICT
+def parse_and_write_network_files_new(file_paths):
+    dictionaries = parse_to_dictionaries(file_paths)
+    compressed_edges = compress_dictionaries_to_string(dictionaries)
+    # Create a copy of the original file to write the updated content
+    base_file, modified_file = file_paths[0], f"{file_paths[0]}_multi"
+    
+    with open(base_file, 'r') as f:
+        lines = f.read().splitlines()
+    
+    with open(modified_file, 'w') as f:
+        edge_reached = False
+        edge_index = 0
+        for line in lines:
+            if line.strip() == 'EDGES':
+                edge_reached = True
+            
+            if not edge_reached:
+                parts = line.split()
+                if len(parts) == 3 and edge_index < len(compressed_edges):
+                    line = f"{parts[0]} {parts[1]} {parts[2]} {compressed_edges[edge_index]}\n"
+                    edge_index += 1
+            f.write(line)
+            
+
 def parse_and_write_network_files(file_paths):
     """
     Parses network files and create new network file by reading the existing node and edge data, updating node attributes,

@@ -1,0 +1,10 @@
+layer_schedules: [
+            {start: 0, interval: 5},
+            {start: 0, interval: 10}
+        ]
+network_file: networks/layer1.txt_multi
+initial_rumor_count: 40
+stop.at: 100
+rumor_probability': 0.01
+counts_file: output/rumor_counts.csv
+num_processes: 1
